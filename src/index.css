@@ -2,15 +2,30 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  text-align: center;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(6, 2, 2, 0.87);
+  background-color: #e6dede;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  .signed-up-username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ab2f0d; 
+    margin-top: 10px;
+  }
+}
+
+.signed-up-username {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ab2f0d; 
+  margin-top: 10px;
 }
 
 a {
